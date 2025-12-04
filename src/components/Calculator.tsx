@@ -236,13 +236,13 @@ export default function Calculator() {
 
                 <div className="grid gap-6 md:grid-cols-2">
                     {/* Input Card */}
-                    <Card className="bg-gray-900 border-gray-800 shadow-2xl">
+                    <Card className="bg-[#2a65a7] border-[#1e4d8b] shadow-2xl">
                         <CardHeader>
                             <CardTitle className="flex items-center gap-2 text-white">
                                 <CalcIcon className="w-5 h-5" />
                                 Loan Details
                             </CardTitle>
-                            <CardDescription className="text-gray-400">
+                            <CardDescription className="text-gray-200">
                                 Enter your loan information below
                             </CardDescription>
                         </CardHeader>
@@ -391,14 +391,14 @@ export default function Calculator() {
                             <div className="flex gap-2 pt-4">
                                 <Button
                                     onClick={handleCalculate}
-                                    className="flex-1 bg-gradient-to-r from-[#2167b5] to-[#1a5a9e] hover:from-[#1b5699] hover:to-[#154a85] text-white font-semibold"
+                                    className="flex-1 bg-gradient-to-r from-[#1a5a9e] to-[#154a85] hover:from-[#154a85] hover:to-[#103d6f] text-white font-semibold"
                                 >
                                     Calculate
                                 </Button>
                                 <Button
                                     onClick={loadExample}
                                     variant="outline"
-                                    className="border-gray-700 text-gray-300 hover:bg-gray-800"
+                                    className="border-gray-700 text-gray-800 hover:bg-gray-800 hover:text-white"
                                 >
                                     Try Example
                                 </Button>
@@ -407,10 +407,10 @@ export default function Calculator() {
                     </Card>
 
                     {/* Results Card */}
-                    <Card className="bg-gray-900 border-gray-800 shadow-2xl">
+                    <Card className="bg-[#2a65a7] border-[#1e4d8b] shadow-2xl">
                         <CardHeader>
                             <CardTitle className="text-white">Payment Summary</CardTitle>
-                            <CardDescription className="text-gray-400">
+                            <CardDescription className="text-gray-200">
                                 Your estimated monthly payment
                             </CardDescription>
                         </CardHeader>
