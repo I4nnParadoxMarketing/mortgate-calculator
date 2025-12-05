@@ -226,9 +226,6 @@ export default function Calculator() {
                             priority
                         />
                     </div>
-                    <h1 className="text-4xl font-bold text-gray-900 mb-2">
-                        Bedrock Communities
-                    </h1>
                     <p className="text-gray-600 text-lg">
                         Mobile Home Chattel Loan Calculator
                     </p>
