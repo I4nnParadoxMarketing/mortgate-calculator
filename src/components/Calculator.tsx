@@ -385,19 +385,12 @@ export default function Calculator() {
                             </div>
 
                             {/* Buttons */}
-                            <div className="flex gap-2 pt-4">
+                            <div className="pt-4">
                                 <Button
                                     onClick={handleCalculate}
-                                    className="flex-1 bg-gradient-to-r from-[#1a5a9e] to-[#154a85] hover:from-[#154a85] hover:to-[#103d6f] text-white font-semibold"
+                                    className="w-full bg-gradient-to-r from-[#1a5a9e] to-[#154a85] hover:from-[#154a85] hover:to-[#103d6f] text-white font-semibold"
                                 >
                                     Calculate
-                                </Button>
-                                <Button
-                                    onClick={loadExample}
-                                    variant="outline"
-                                    className="border-gray-700 text-gray-800 hover:bg-gray-800 hover:text-white"
-                                >
-                                    Try Example
                                 </Button>
                             </div>
                         </CardContent>
@@ -473,9 +466,6 @@ export default function Calculator() {
                 <div className="mt-8 text-center text-gray-600 text-sm">
                     <p>
                         This calculator provides estimates only. Actual loan terms may vary.
-                    </p>
-                    <p className="mt-2">
-                        Contact Bedrock Communities for personalized loan options.
                     </p>
                 </div>
             </div>
